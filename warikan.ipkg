@@ -1,0 +1,11 @@
+package warikan
+-- バッケージ名
+
+-- ソースコードの場所
+sourcedir = src
+-- ビルドするモジュール(ファイル名)
+modules = Main, warikan
+-- 生成する実行可能ファイルの名前
+executable = "warikan"
+-- `Main.main` を定義するモジュール(ファイル名)
+main = Main
